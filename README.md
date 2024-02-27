@@ -26,14 +26,14 @@ This project delves into the challenges of fish detection and classification by 
 ### Installation
 
 1. Clone the repository:
-'''
+```
 git clone https://github.com/yourusername/fish-classification-project.git
-'''
+```
 
-3. Install the required packages:
-'''
+2. Install the required packages:
+```
 pip install -r requirements.txt
-'''
+```
 
 ## Usage
 
@@ -53,16 +53,9 @@ data
 |        └——————labels
 ```
 
-## Contributing
 
-Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
+## Citation
+See BoxMOT and Ultralyrics repositories, which we base our work upon: 
 - Broström, M. BoxMOT: pluggable SOTA tracking modules for object detection, segmentation and pose estimation models (Version 10.0.43) [Computer software]. https://doi.org/https://zenodo.org/record/7629840
 - Jocher, G., Chaurasia, A., & Qiu, J. (2023). Ultralytics YOLO (Version 8.0.0) [Computer software]. https://github.com/ultralytics/ultralytics
 
