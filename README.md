@@ -26,12 +26,14 @@ This project delves into the challenges of fish detection and classification by 
 ### Installation
 
 1. Clone the repository:
+'''
 git clone https://github.com/yourusername/fish-classification-project.git
+'''
 
-
-2. Install the required packages:
+3. Install the required packages:
+'''
 pip install -r requirements.txt
-
+'''
 
 ## Usage
 
@@ -39,7 +41,7 @@ Provide instructions on how to use the project, including any necessary commands
 
 ## Data
 
-Organise the data folders as follow and properly modify the creation of the .yaml file for the YOLO training:
+Organise the data folders as follow and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
 
 ```
 data
