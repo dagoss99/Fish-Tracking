@@ -4,7 +4,7 @@ Exploring innovative fish classification using YOLO for object tracking and Deep
 
 ## Demo Video
 
-[![Demo Video]([http://img.youtube.com/vi/VIDEO_ID](https://youtu.be/CnK_N_VXnho)/0.jpg)][(http://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/CnK_N_VXnho) "Fish Detection and Classification Demo")
+[![Demo Video]((https://youtu.be/CnK_N_VXnho)/0.jpg)](https://youtu.be/CnK_N_VXnho) "Fish Detection and Classification Demo")
 
 ## Project Overview
 
