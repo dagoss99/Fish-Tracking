@@ -10,7 +10,7 @@ Exploring innovative fish classification using YOLO for object tracking and Deep
 
 This project delves into the challenges of fish detection and classification by harnessing the power of deep learning techniques. The primary objectives are twofold:
 
-1. **Fish Detection using YOLO:** Utilizing the You Only Look Once (YOLO) framework, the project offers a robust solution for real-time object tracking, enabling accurate and efficient fish detection in video footage.
+1. **Fish Detection and Real-Time Classification using YOLO:** Utilizing the You Only Look Once (YOLO) framework, the project offers a robust solution for real-time object tracking, enabling accurate and efficient fish detection in video footage.
 
 2. **Species Classification:** By capturing multiple snapshots of detected fishes, the project employs a novel classification method. It aggregates predictions across these images, determining the species based on the majority vote, ensuring high accuracy and reliability.
 
@@ -36,6 +36,20 @@ pip install -r requirements.txt
 ## Usage
 
 Provide instructions on how to use the project, including any necessary commands or scripts.
+
+## Data
+
+Organise the data folders as follow and properly modify the creation of the .yaml file for the YOLO training:
+
+```
+data
+|——————train 
+|        └——————images
+|        └——————labels
+|——————val
+|        └——————images
+|        └——————labels
+```
 
 ## Contributing
 
