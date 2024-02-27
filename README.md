@@ -41,7 +41,7 @@ Provide instructions on how to use the project, including any necessary commands
 
 ## Data
 
-Organise the data folders as follow and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
+To train YOLO, prepare the data by adhering to the YOLO format, the organise the folders as follow and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
 
 ```
 data
@@ -63,5 +63,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Mention any collaborators, data sources, or any other acknowledgments.
+- Broström, M. BoxMOT: pluggable SOTA tracking modules for object detection, segmentation and pose estimation models (Version 10.0.43) [Computer software]. https://doi.org/https://zenodo.org/record/7629840
+- Jocher, G., Chaurasia, A., & Qiu, J. (2023). Ultralytics YOLO (Version 8.0.0) [Computer software]. https://github.com/ultralytics/ultralytics
 
