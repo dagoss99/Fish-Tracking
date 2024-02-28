@@ -6,7 +6,7 @@ Exploring innovative fish classification using YOLO for object tracking and Deep
 
 The following video explains the motivation and methodologies of the project
 
-[![Watch the video]([https://path/to/thumbnail.jpg](https://github.com/dagos99/Fish-Tracking/blob/main/assets/images/thumbnail.jpg))](https://www.youtube.com/watch?v=q6aBy1VgHOA)
+[![Exploration of classification techniques for fish species detection in underwater enviroments]([https://path/to/thumbnail.jpg](https://github.com/dagos99/Fish-Tracking/blob/main/assets/images/thumbnail.jpg))](https://www.youtube.com/watch?v=q6aBy1VgHOA)
 
 
 ## Demo Video
