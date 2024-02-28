@@ -2,29 +2,14 @@
 
 ## Getting Started
 
-### Prerequisites
+The notebook has been run on Kaggle: <a href="https://www.kaggle.com/code/fabiodagostino/fish-detection-yolo"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
 
-- Python 3.8 or higher
-- Dependencies listed in `requirements.txt`
-
-### Installation
-
-1. Clone the repository:
-```
-git clone https://github.com/yourusername/fish-classification-project.git
-```
-2. Check into training_YOLO:
-```
-git checkout training_YOLO
-```
-2. Install the required packages:
-```
-pip install -r requirements.txt
-```
-
+<div>
+    
+</div>
 ## Usage
 
-To train YOLO, prepare the data by adhering to the YOLO format, the organise the folders as follow and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
+To train YOLO, prepare the data by adhering to the YOLO format, then organise the folders as follows and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
 
 ```
 data
