@@ -4,12 +4,11 @@
 
 The notebook has been run on Kaggle: <a href="https://www.kaggle.com/code/fabiodagostino/fish-detection-yolo"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open In Kaggle"></a>
 
-<div>
-    
-</div>
+The notebook is structured such that it's easy to reproduce by following the different steps. This facilitates the training of YOLO which is the Multi-Object-Tracking algorithm used in the main branch to run the classification methods described. Once you trained the model, download the weights and place them in the folder where you have cloned the main branch. 
+
 ## Usage
 
-To train YOLO, prepare the data by adhering to the YOLO format, then organise the folders as follows and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
+To train YOLO, prepare the data by adhering to the YOLO labeling format, then organize the folders as follows and properly modify the creation of the .yaml file on the notebook:
 
 ```
 data
