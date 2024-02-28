@@ -29,29 +29,27 @@ This project delves into the challenges of fish detection and classification by 
 ```
 git clone https://github.com/yourusername/fish-classification-project.git
 ```
-
 2. Install the required packages:
 ```
 pip install -r requirements.txt
 ```
 
-## Usage
+# Usage
 
-Provide instructions on how to use the project, including any necessary commands or scripts.
+## The following commands can be used to test the different methods (you can add "--save" to the commands to save the video in the runs folder):
 
-## Data
+### Just tracking without classification
+python examples/track.py --source videos/track.mp4 --tracking-method strongsort --show --yolo-model models/fish_yolov8_158_epochs.pt 
 
-To train YOLO, prepare the data by adhering to the YOLO format, the organise the folders as follow and properly modify the creation of the .yaml file on the yolo-training.ipynb notebook:
 
-```
-data
-|——————train 
-|        └——————images
-|        └——————labels
-|——————val
-|        └——————images
-|        └——————labels
-```
+### Method 1: Real time classification while tracking
+python examples/track.py --source videos/method1.mp4 --tracking-method strongsort --show --yolo-model models/yolov8_custom_30epochs.pt 
+
+
+### Method 2: Offline classification after tracking 
+python track+classification.py --source videos/method2.mp4 --yolo-model models/fish_yolov8_158_epochs.pt
+
+
 
 
 ## Citation
