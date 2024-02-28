@@ -11,15 +11,15 @@ The following video explains the motivation and methodologies of the project
 
 ## Demo Video
 
-[![Demo Video](https://youtu.be/CnK_N_VXnho/0.jpg)](https://youtu.be/CnK_N_VXnho) "Fish Detection and Classification Demo")
+[![Demo Video](https://youtu.be/CnK_N_VXnho/0.jpg)](https://youtu.be/CnK_N_VXnho) A demo of the first methodology.
 
 ## Project Overview
 
 This project delves into the challenges of fish detection and classification by harnessing the power of deep learning techniques. The primary objectives are twofold:
 
-1. **Fish Detection and Real-Time Classification using YOLO:** Utilizing the You Only Look Once (YOLO) framework, the project offers a robust solution for real-time object tracking, enabling accurate and efficient fish detection in video footage.
+1. **Fish Detection and Real-Time Classification using YOLO:** Utilizing the You Only Look Once (YOLO) framework, the project offers a robust solution for real-time object tracking, enabling accurate and efficient fish detection in video footage. Trained with a specific dataset of species indigenous of Côte D'Azur. 
 
-2. **Species Classification:** By capturing multiple snapshots of detected fishes, the project employs a novel classification method. It aggregates predictions across these images, determining the species based on the majority vote, ensuring high accuracy and reliability.
+2. **Species Classification:** By capturing multiple snapshots of detected fishes, the project employs a novel classification method. It aggregates predictions across these images, determining the species based on the majority vote, ensuring high accuracy and reliability. Trained on the dataset [A Large-Scale Dataset for Fish Segmentation and Classification](https://ieeexplore.ieee.org/document/9259867).
 
 3. **DeepLabCut for Trajectory Analysis:** In a pioneering exploration, the project uses DeepLabCut to analyze the trajectory of fish body parts. This method opens new avenues for understanding fish behavior and movement patterns, contributing valuable insights for species classification.
 
