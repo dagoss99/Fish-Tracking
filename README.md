@@ -39,16 +39,19 @@ pip install -r requirements.txt
 ## The following commands can be used to test the different methods (you can add "--save" to the commands to save the video in the runs folder):
 
 ### Just tracking without classification
+```
 python examples/track.py --source videos/track.mp4 --tracking-method strongsort --show --yolo-model models/fish_yolov8_158_epochs.pt 
-
+```
 
 ### Method 1: Real time classification while tracking
+```
 python examples/track.py --source videos/method1.mp4 --tracking-method strongsort --show --yolo-model models/yolov8_custom_30epochs.pt 
-
+```
 
 ### Method 2: Offline classification after tracking 
+```
 python track+classification.py --source videos/method2.mp4 --yolo-model models/fish_yolov8_158_epochs.pt
-
+```
 
 
 
