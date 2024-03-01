@@ -45,6 +45,7 @@ conda activate fishclass
 ```
 pip install -v -e .
 ```
+*Note: using ```pip install requirements.txt``` might not properly install some packages. We advise using the aforementioned command instead.*
 
 # Usage
 
