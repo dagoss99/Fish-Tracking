@@ -36,9 +36,14 @@ This project delves into the challenges of fish detection and classification by 
 ```
 git clone https://github.com/yourusername/fish-classification-project.git
 ```
+2. Create your environment
+```
+conda create --name fishclass
+conda activate fishclass
+```
 2. Install the required packages:
 ```
-pip install -r requirements.txt
+pip install -v -e .
 ```
 
 # Usage
@@ -59,6 +64,8 @@ python examples/track.py --source videos/method1.mp4 --tracking-method strongsor
 ```
 python track+classification.py --source videos/method2.mp4 --yolo-model models/fish_yolov8_158_epochs.pt
 ```
+### Method 3: Movement based classification
+This part of the project, along with a README explaining its installation and running instructions, can be found in the FishMovement branch.
 
 
 
